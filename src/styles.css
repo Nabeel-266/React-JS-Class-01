@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Quicksand", sans-serif !important;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.App h1 {
+  color: rgb(80, 36, 0);
+  font-size: 2.4rem;
+  text-decoration: underline;
+}
+.App h3 {
+  color: #333;
+  font-weight: 500;
+}
+
+.App .advice {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: rgb(80, 36, 0);
+  margin: 20px 0px 0px 0px !important;
+}
+
+.App button {
+  padding: 5px 10px;
+  font-size: 1.1rem;
+  margin-top: 20px;
+  color: #fff;
+  border-radius: 6px;
+  letter-spacing: 1px;
+  background-color: rgb(80, 36, 0);
+  border: 2px solid rgb(80, 36, 0);
+  transition: 0.4s;
+}
+
+.App button:hover {
+  color: rgb(80, 36, 0);
+  background-color: #fff;
+  border: 2px solid rgb(80, 36, 0);
+}
+
+.App .count {
+  margin-top: 20px;
+}
+
+.App .count strong {
+  color: rgb(80, 36, 0);
+}
+
+.hide {
+  display: none !important;
+}
